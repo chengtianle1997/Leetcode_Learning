@@ -1,0 +1,4 @@
+﻿  SpiralMatrix.cpp
+C:\Users\cheng\Desktop\LeetCode Learning\LeetCode Learning\59. SpiralMatrix\SpiralMatrix.cpp(52,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\cheng\Desktop\LeetCode Learning\LeetCode Learning\59. SpiralMatrix\SpiralMatrix.cpp(54,27): warning C4018: '<': signed/unsigned mismatch
+  59. SpiralMatrix.vcxproj -> C:\Users\cheng\Desktop\LeetCode Learning\LeetCode Learning\Debug\59. SpiralMatrix.exe
