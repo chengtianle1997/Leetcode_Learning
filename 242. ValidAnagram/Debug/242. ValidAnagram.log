@@ -1,0 +1,4 @@
+﻿  ValidAnagram.cpp
+C:\Users\cheng\Desktop\LeetCode Learning\LeetCode Learning\242. ValidAnagram\ValidAnagram.cpp(18,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\cheng\Desktop\LeetCode Learning\LeetCode Learning\242. ValidAnagram\ValidAnagram.cpp(21,21): warning C4018: '<': signed/unsigned mismatch
+  242. ValidAnagram.vcxproj -> C:\Users\cheng\Desktop\LeetCode Learning\LeetCode Learning\Debug\242. ValidAnagram.exe

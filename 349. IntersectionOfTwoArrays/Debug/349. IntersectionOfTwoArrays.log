@@ -1,0 +1,6 @@
+﻿  IntersectionOfTwoArrays.cpp
+C:\Users\cheng\Desktop\LeetCode Learning\LeetCode Learning\349. IntersectionOfTwoArrays\IntersectionOfTwoArrays.cpp(47,18): warning C4018: '<': signed/unsigned mismatch
+C:\Users\cheng\Desktop\LeetCode Learning\LeetCode Learning\349. IntersectionOfTwoArrays\IntersectionOfTwoArrays.cpp(47,38): warning C4018: '<': signed/unsigned mismatch
+C:\Users\cheng\Desktop\LeetCode Learning\LeetCode Learning\349. IntersectionOfTwoArrays\IntersectionOfTwoArrays.cpp(59,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\cheng\Desktop\LeetCode Learning\LeetCode Learning\349. IntersectionOfTwoArrays\IntersectionOfTwoArrays.cpp(61,26): warning C4018: '<': signed/unsigned mismatch
+  349. IntersectionOfTwoArrays.vcxproj -> C:\Users\cheng\Desktop\LeetCode Learning\LeetCode Learning\Debug\349. IntersectionOfTwoArrays.exe
