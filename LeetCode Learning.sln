@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "454. FourSumII", "454. Four
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "383. RansomNote", "383. RansomNote\383. RansomNote.vcxproj", "{73CA400C-4F39-44FE-B801-78EC5E990205}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "344. ReverseString", "344. ReverseString\344. ReverseString.vcxproj", "{5798E079-A643-41FD-8927-FA181BD2C41D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -181,6 +183,14 @@ Global
 		{73CA400C-4F39-44FE-B801-78EC5E990205}.Release|x64.Build.0 = Release|x64
 		{73CA400C-4F39-44FE-B801-78EC5E990205}.Release|x86.ActiveCfg = Release|Win32
 		{73CA400C-4F39-44FE-B801-78EC5E990205}.Release|x86.Build.0 = Release|Win32
+		{5798E079-A643-41FD-8927-FA181BD2C41D}.Debug|x64.ActiveCfg = Debug|x64
+		{5798E079-A643-41FD-8927-FA181BD2C41D}.Debug|x64.Build.0 = Debug|x64
+		{5798E079-A643-41FD-8927-FA181BD2C41D}.Debug|x86.ActiveCfg = Debug|Win32
+		{5798E079-A643-41FD-8927-FA181BD2C41D}.Debug|x86.Build.0 = Debug|Win32
+		{5798E079-A643-41FD-8927-FA181BD2C41D}.Release|x64.ActiveCfg = Release|x64
+		{5798E079-A643-41FD-8927-FA181BD2C41D}.Release|x64.Build.0 = Release|x64
+		{5798E079-A643-41FD-8927-FA181BD2C41D}.Release|x86.ActiveCfg = Release|Win32
+		{5798E079-A643-41FD-8927-FA181BD2C41D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
