@@ -33,6 +33,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "349. IntersectionOfTwoArray
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "202. HappyNumber", "202. HappyNumber\202. HappyNumber.vcxproj", "{35AA5EB3-D26E-4252-8DEA-B5F50A5F86D3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "454. FourSumII", "454. FourSumII\454. FourSumII.vcxproj", "{343A4FBD-5BB4-4D51-A255-EA2C604BB933}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "383. RansomNote", "383. RansomNote\383. RansomNote.vcxproj", "{73CA400C-4F39-44FE-B801-78EC5E990205}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -161,6 +165,22 @@ Global
 		{35AA5EB3-D26E-4252-8DEA-B5F50A5F86D3}.Release|x64.Build.0 = Release|x64
 		{35AA5EB3-D26E-4252-8DEA-B5F50A5F86D3}.Release|x86.ActiveCfg = Release|Win32
 		{35AA5EB3-D26E-4252-8DEA-B5F50A5F86D3}.Release|x86.Build.0 = Release|Win32
+		{343A4FBD-5BB4-4D51-A255-EA2C604BB933}.Debug|x64.ActiveCfg = Debug|x64
+		{343A4FBD-5BB4-4D51-A255-EA2C604BB933}.Debug|x64.Build.0 = Debug|x64
+		{343A4FBD-5BB4-4D51-A255-EA2C604BB933}.Debug|x86.ActiveCfg = Debug|Win32
+		{343A4FBD-5BB4-4D51-A255-EA2C604BB933}.Debug|x86.Build.0 = Debug|Win32
+		{343A4FBD-5BB4-4D51-A255-EA2C604BB933}.Release|x64.ActiveCfg = Release|x64
+		{343A4FBD-5BB4-4D51-A255-EA2C604BB933}.Release|x64.Build.0 = Release|x64
+		{343A4FBD-5BB4-4D51-A255-EA2C604BB933}.Release|x86.ActiveCfg = Release|Win32
+		{343A4FBD-5BB4-4D51-A255-EA2C604BB933}.Release|x86.Build.0 = Release|Win32
+		{73CA400C-4F39-44FE-B801-78EC5E990205}.Debug|x64.ActiveCfg = Debug|x64
+		{73CA400C-4F39-44FE-B801-78EC5E990205}.Debug|x64.Build.0 = Debug|x64
+		{73CA400C-4F39-44FE-B801-78EC5E990205}.Debug|x86.ActiveCfg = Debug|Win32
+		{73CA400C-4F39-44FE-B801-78EC5E990205}.Debug|x86.Build.0 = Debug|Win32
+		{73CA400C-4F39-44FE-B801-78EC5E990205}.Release|x64.ActiveCfg = Release|x64
+		{73CA400C-4F39-44FE-B801-78EC5E990205}.Release|x64.Build.0 = Release|x64
+		{73CA400C-4F39-44FE-B801-78EC5E990205}.Release|x86.ActiveCfg = Release|Win32
+		{73CA400C-4F39-44FE-B801-78EC5E990205}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
