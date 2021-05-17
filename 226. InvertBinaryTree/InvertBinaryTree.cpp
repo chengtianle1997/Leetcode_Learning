@@ -11,7 +11,12 @@ struct TreeNode {
 
 // We can use both recursive approach and non-recursive approach for this title,
 // and we can use both preorder traversal and postorder traversal method.
+
 // However, we cannot use the inorder traversal for we may swap some nodes twice.
+// (in inorder traversal, we swap the children of the left child, and swap the chidren of the root.
+//  Finally, the original left child is the right child now, and swaping the children of right child is actually 
+//  swaping the children of the original left child.)
+
 // In fact, we can also use level order traversal.
 
 // Recursive approach
