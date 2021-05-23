@@ -1,4 +1,5 @@
 #include <iostream>
+#include <queue>
 
 struct TreeNode {
 	int val;
@@ -7,7 +8,7 @@ struct TreeNode {
 
 	TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 };
-
+// Recursion Approach
 class Solution {
 public:
 	bool compare(TreeNode* left, TreeNode* right)
@@ -27,5 +28,36 @@ public:
 		if (!root)
 			return true;
 		return compare(root->left, root->right);
+	}
+};
+
+// Non-Recursion Approach
+class Solution {
+public:
+	bool isSymmetric(TreeNode* root) {
+		if (!root)
+			return true;
+		std::queue<TreeNode*> queue;
+		queue.push(root->left);
+		queue.push(root->right);
+		while (!queue.empty())
+		{
+			TreeNode* left = queue.front();
+			queue.pop();
+			TreeNode* right = queue.front();
+			queue.pop();
+
+			if (left == nullptr && right == nullptr)
+				continue;
+
+			if (left == nullptr || right == nullptr || left->val != right->val)
+				return false;
+
+			queue.push(left->left);
+			queue.push(right->right);
+			queue.push(left->right);
+			queue.push(right->left);
+		}
+		return true;
 	}
 };
