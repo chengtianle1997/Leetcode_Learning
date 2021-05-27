@@ -60,3 +60,47 @@ public:
 		return depth;
 	}
 };
+
+// Use stack to stimulate the post-order traversal
+#include <stack>
+class Solution {
+public:
+	int maxDepth(TreeNode* root) {
+		if (!root)
+			return 0;
+		std::stack<TreeNode*> stack;
+		int depth = 0;
+		int result = 0;
+		stack.push(root);
+		while (!stack.empty())
+		{
+			TreeNode* node = stack.top();
+			stack.pop();
+			if (node)
+			{
+				// pop order: post-order (left, right, middle)
+				// push order: middle. right, left
+				stack.push(node);
+				stack.push(NULL);
+				depth++;
+				if (node->right)
+					stack.push(node->right);
+				if (node->left)
+					stack.push(node->left);
+			}
+			else
+			{
+				TreeNode* node = stack.top();
+				stack.pop();
+				depth--;
+			}
+			result = std::max(result, depth);
+		}
+		return result;
+	}
+};
+
+// In this method: we do 'depth++' when we push an element as a middle node to the stack,
+// So we can get the right depth number that meams the number of nodes to reach the node from the root.
+// However, when we reach the node after NULL (the middle node) and pop it out, we do 'depth--' 
+// to recover the depth number of the previous stack element.
