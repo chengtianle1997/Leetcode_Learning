@@ -18,7 +18,7 @@ public:
 
 // Non-Recursion Solution: level-order traversal
 #include <queue>
-class Solution {
+class Solution_A {
 public:
 	int countNodes(TreeNode* root) {
 		if (!root)
@@ -46,7 +46,7 @@ public:
 
 // Non-Recursion Solution: post-order traversal
 #include <stack>
-class Solution {
+class Solution_B {
 public:
 	int countNodes(TreeNode* root)
 	{
@@ -81,3 +81,41 @@ public:
 		return counter;
 	}
 };
+
+// Solution for complete Tree: Simplify the Recursion   O(logN * logN)
+#include <cmath>  // power function
+class Solution_C {
+public:
+	int countNodes(TreeNode* root) {
+		if (!root)
+			return 0;
+		// In a complete binary tree, we can find complete subtree,
+		// and we can use the formula (nodes = 2^depth - 1) to simplify the counting process
+		TreeNode* left = root->left;
+		TreeNode* right = root->right;
+		int leftDepth = 1;
+		int rightDepth = 1;
+		while (left)
+		{
+			left = left->left;
+			leftDepth++;
+		}
+		while (right)
+		{
+			right = right->right;
+			rightDepth++;
+		}
+		// if a complete subtree is found
+		if (leftDepth == rightDepth)
+			return pow(2, leftDepth) - 1;
+		return 1 + countNodes(root->left) + countNodes(root->right);
+	}
+};
+
+int main()
+{
+	// there is another way to do power calculation
+	std::cout << pow(2, 5) << std::endl;
+	std::cout << (2 << (5 - 1)) << std::endl;
+	// run this code and try it.
+}
