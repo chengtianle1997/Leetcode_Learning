@@ -111,6 +111,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "104. MaximumDepthOfBinaryTr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "559. MaximumDepthOfNarrayTree", "559. MaximumDepthOfNarrayTree\559. MaximumDepthOfNarrayTree.vcxproj", "{9E91EC2B-DA19-4523-8A4C-9726C7044EB0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "111. MinimumDepthOfBinaryTree", "111. MinimumDepthOfBinaryTree\111. MinimumDepthOfBinaryTree.vcxproj", "{D1533935-BAD8-40B1-A063-C67E27B95B0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -487,6 +489,14 @@ Global
 		{9E91EC2B-DA19-4523-8A4C-9726C7044EB0}.Release|x64.Build.0 = Release|x64
 		{9E91EC2B-DA19-4523-8A4C-9726C7044EB0}.Release|x86.ActiveCfg = Release|Win32
 		{9E91EC2B-DA19-4523-8A4C-9726C7044EB0}.Release|x86.Build.0 = Release|Win32
+		{D1533935-BAD8-40B1-A063-C67E27B95B0D}.Debug|x64.ActiveCfg = Debug|x64
+		{D1533935-BAD8-40B1-A063-C67E27B95B0D}.Debug|x64.Build.0 = Debug|x64
+		{D1533935-BAD8-40B1-A063-C67E27B95B0D}.Debug|x86.ActiveCfg = Debug|Win32
+		{D1533935-BAD8-40B1-A063-C67E27B95B0D}.Debug|x86.Build.0 = Debug|Win32
+		{D1533935-BAD8-40B1-A063-C67E27B95B0D}.Release|x64.ActiveCfg = Release|x64
+		{D1533935-BAD8-40B1-A063-C67E27B95B0D}.Release|x64.Build.0 = Release|x64
+		{D1533935-BAD8-40B1-A063-C67E27B95B0D}.Release|x86.ActiveCfg = Release|Win32
+		{D1533935-BAD8-40B1-A063-C67E27B95B0D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -539,6 +549,7 @@ Global
 		{8BE0AD23-33A4-437B-8E38-816240C6F538} = {6872E063-7E94-4305-A2EA-91DD5B7A3325}
 		{EA0D2905-71F2-45EE-961D-B2E087E625F8} = {6872E063-7E94-4305-A2EA-91DD5B7A3325}
 		{9E91EC2B-DA19-4523-8A4C-9726C7044EB0} = {6872E063-7E94-4305-A2EA-91DD5B7A3325}
+		{D1533935-BAD8-40B1-A063-C67E27B95B0D} = {6872E063-7E94-4305-A2EA-91DD5B7A3325}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34E5A315-0826-403B-B284-B0BC556461F9}
