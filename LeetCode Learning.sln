@@ -123,6 +123,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "100. SameTree", "100. SameT
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "404. SumOfLeftLeaves", "404. SumOfLeftLeaves\404. SumOfLeftLeaves.vcxproj", "{43E9CAB4-FC0D-4292-B438-0253A5FE178A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "513. FindBottomLeftTreeValue", "513. FindBottomLeftTreeValue\513. FindBottomLeftTreeValue.vcxproj", "{6A8A1726-9197-4DF4-A0CB-BB93413D8A74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -547,6 +549,14 @@ Global
 		{43E9CAB4-FC0D-4292-B438-0253A5FE178A}.Release|x64.Build.0 = Release|x64
 		{43E9CAB4-FC0D-4292-B438-0253A5FE178A}.Release|x86.ActiveCfg = Release|Win32
 		{43E9CAB4-FC0D-4292-B438-0253A5FE178A}.Release|x86.Build.0 = Release|Win32
+		{6A8A1726-9197-4DF4-A0CB-BB93413D8A74}.Debug|x64.ActiveCfg = Debug|x64
+		{6A8A1726-9197-4DF4-A0CB-BB93413D8A74}.Debug|x64.Build.0 = Debug|x64
+		{6A8A1726-9197-4DF4-A0CB-BB93413D8A74}.Debug|x86.ActiveCfg = Debug|Win32
+		{6A8A1726-9197-4DF4-A0CB-BB93413D8A74}.Debug|x86.Build.0 = Debug|Win32
+		{6A8A1726-9197-4DF4-A0CB-BB93413D8A74}.Release|x64.ActiveCfg = Release|x64
+		{6A8A1726-9197-4DF4-A0CB-BB93413D8A74}.Release|x64.Build.0 = Release|x64
+		{6A8A1726-9197-4DF4-A0CB-BB93413D8A74}.Release|x86.ActiveCfg = Release|Win32
+		{6A8A1726-9197-4DF4-A0CB-BB93413D8A74}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -605,6 +615,7 @@ Global
 		{4138EFCB-BEBA-4D4B-9351-7FEA701F4819} = {6872E063-7E94-4305-A2EA-91DD5B7A3325}
 		{F47521E7-2519-410A-B0EA-AD2921FA93AB} = {6872E063-7E94-4305-A2EA-91DD5B7A3325}
 		{43E9CAB4-FC0D-4292-B438-0253A5FE178A} = {6872E063-7E94-4305-A2EA-91DD5B7A3325}
+		{6A8A1726-9197-4DF4-A0CB-BB93413D8A74} = {6872E063-7E94-4305-A2EA-91DD5B7A3325}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34E5A315-0826-403B-B284-B0BC556461F9}
