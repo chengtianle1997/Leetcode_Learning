@@ -133,6 +133,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "106. ConstructBinaryTreeFro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "105. ConstructBinaryTreeFromPreorderAndInorderTraversal", "105. ConstructBinaryTreeFromPreorderAndInorderTraversal\105. ConstructBinaryTreeFromPreorderAndInorderTraversal.vcxproj", "{DF272B1F-A466-4492-B3BB-C3D3837E518F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "654. MaximumBinaryTree", "654. MaximumBinaryTree\654. MaximumBinaryTree.vcxproj", "{873C0D71-24D0-4BCD-AF45-F20BFC6D3B6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -597,6 +599,14 @@ Global
 		{DF272B1F-A466-4492-B3BB-C3D3837E518F}.Release|x64.Build.0 = Release|x64
 		{DF272B1F-A466-4492-B3BB-C3D3837E518F}.Release|x86.ActiveCfg = Release|Win32
 		{DF272B1F-A466-4492-B3BB-C3D3837E518F}.Release|x86.Build.0 = Release|Win32
+		{873C0D71-24D0-4BCD-AF45-F20BFC6D3B6F}.Debug|x64.ActiveCfg = Debug|x64
+		{873C0D71-24D0-4BCD-AF45-F20BFC6D3B6F}.Debug|x64.Build.0 = Debug|x64
+		{873C0D71-24D0-4BCD-AF45-F20BFC6D3B6F}.Debug|x86.ActiveCfg = Debug|Win32
+		{873C0D71-24D0-4BCD-AF45-F20BFC6D3B6F}.Debug|x86.Build.0 = Debug|Win32
+		{873C0D71-24D0-4BCD-AF45-F20BFC6D3B6F}.Release|x64.ActiveCfg = Release|x64
+		{873C0D71-24D0-4BCD-AF45-F20BFC6D3B6F}.Release|x64.Build.0 = Release|x64
+		{873C0D71-24D0-4BCD-AF45-F20BFC6D3B6F}.Release|x86.ActiveCfg = Release|Win32
+		{873C0D71-24D0-4BCD-AF45-F20BFC6D3B6F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -660,6 +670,7 @@ Global
 		{A21F7D9E-E00A-4F5E-B355-98FF0F573475} = {6872E063-7E94-4305-A2EA-91DD5B7A3325}
 		{947088EF-5127-429B-8867-A79249FBF9A1} = {6872E063-7E94-4305-A2EA-91DD5B7A3325}
 		{DF272B1F-A466-4492-B3BB-C3D3837E518F} = {6872E063-7E94-4305-A2EA-91DD5B7A3325}
+		{873C0D71-24D0-4BCD-AF45-F20BFC6D3B6F} = {6872E063-7E94-4305-A2EA-91DD5B7A3325}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34E5A315-0826-403B-B284-B0BC556461F9}
