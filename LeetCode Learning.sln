@@ -137,6 +137,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "654. MaximumBinaryTree", "6
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "617. MergeTwoBinaryTree", "617. MergeTwoBinaryTree\617. MergeTwoBinaryTree.vcxproj", "{66540D1D-587A-412F-8C8E-510857D60D11}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "700. SearchInBinarySearchTree", "700. SearchInBinarySearchTree\700. SearchInBinarySearchTree.vcxproj", "{D555BE41-EAE1-4A2B-9D66-CA3FB8A84635}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -617,6 +619,14 @@ Global
 		{66540D1D-587A-412F-8C8E-510857D60D11}.Release|x64.Build.0 = Release|x64
 		{66540D1D-587A-412F-8C8E-510857D60D11}.Release|x86.ActiveCfg = Release|Win32
 		{66540D1D-587A-412F-8C8E-510857D60D11}.Release|x86.Build.0 = Release|Win32
+		{D555BE41-EAE1-4A2B-9D66-CA3FB8A84635}.Debug|x64.ActiveCfg = Debug|x64
+		{D555BE41-EAE1-4A2B-9D66-CA3FB8A84635}.Debug|x64.Build.0 = Debug|x64
+		{D555BE41-EAE1-4A2B-9D66-CA3FB8A84635}.Debug|x86.ActiveCfg = Debug|Win32
+		{D555BE41-EAE1-4A2B-9D66-CA3FB8A84635}.Debug|x86.Build.0 = Debug|Win32
+		{D555BE41-EAE1-4A2B-9D66-CA3FB8A84635}.Release|x64.ActiveCfg = Release|x64
+		{D555BE41-EAE1-4A2B-9D66-CA3FB8A84635}.Release|x64.Build.0 = Release|x64
+		{D555BE41-EAE1-4A2B-9D66-CA3FB8A84635}.Release|x86.ActiveCfg = Release|Win32
+		{D555BE41-EAE1-4A2B-9D66-CA3FB8A84635}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -682,6 +692,7 @@ Global
 		{DF272B1F-A466-4492-B3BB-C3D3837E518F} = {6872E063-7E94-4305-A2EA-91DD5B7A3325}
 		{873C0D71-24D0-4BCD-AF45-F20BFC6D3B6F} = {6872E063-7E94-4305-A2EA-91DD5B7A3325}
 		{66540D1D-587A-412F-8C8E-510857D60D11} = {6872E063-7E94-4305-A2EA-91DD5B7A3325}
+		{D555BE41-EAE1-4A2B-9D66-CA3FB8A84635} = {6872E063-7E94-4305-A2EA-91DD5B7A3325}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34E5A315-0826-403B-B284-B0BC556461F9}
