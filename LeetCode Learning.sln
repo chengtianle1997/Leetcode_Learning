@@ -143,6 +143,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "98. ValdateBinarySearchTree
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "530. MinimumAbsoluteDifferenceInBST", "530. MinimumAbsoluteDifferenceInBST\530. MinimumAbsoluteDifferenceInBST.vcxproj", "{BD184AB5-639C-4C95-848D-ECF531DB1297}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "501. FindModeInBST", "501. FindModeInBST\501. FindModeInBST.vcxproj", "{0449C5D2-90F5-4150-BDEE-051FE08205E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -647,6 +649,14 @@ Global
 		{BD184AB5-639C-4C95-848D-ECF531DB1297}.Release|x64.Build.0 = Release|x64
 		{BD184AB5-639C-4C95-848D-ECF531DB1297}.Release|x86.ActiveCfg = Release|Win32
 		{BD184AB5-639C-4C95-848D-ECF531DB1297}.Release|x86.Build.0 = Release|Win32
+		{0449C5D2-90F5-4150-BDEE-051FE08205E3}.Debug|x64.ActiveCfg = Debug|x64
+		{0449C5D2-90F5-4150-BDEE-051FE08205E3}.Debug|x64.Build.0 = Debug|x64
+		{0449C5D2-90F5-4150-BDEE-051FE08205E3}.Debug|x86.ActiveCfg = Debug|Win32
+		{0449C5D2-90F5-4150-BDEE-051FE08205E3}.Debug|x86.Build.0 = Debug|Win32
+		{0449C5D2-90F5-4150-BDEE-051FE08205E3}.Release|x64.ActiveCfg = Release|x64
+		{0449C5D2-90F5-4150-BDEE-051FE08205E3}.Release|x64.Build.0 = Release|x64
+		{0449C5D2-90F5-4150-BDEE-051FE08205E3}.Release|x86.ActiveCfg = Release|Win32
+		{0449C5D2-90F5-4150-BDEE-051FE08205E3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -715,6 +725,7 @@ Global
 		{D555BE41-EAE1-4A2B-9D66-CA3FB8A84635} = {6872E063-7E94-4305-A2EA-91DD5B7A3325}
 		{6F112F11-4316-476B-B60C-2388601E192C} = {6872E063-7E94-4305-A2EA-91DD5B7A3325}
 		{BD184AB5-639C-4C95-848D-ECF531DB1297} = {6872E063-7E94-4305-A2EA-91DD5B7A3325}
+		{0449C5D2-90F5-4150-BDEE-051FE08205E3} = {6872E063-7E94-4305-A2EA-91DD5B7A3325}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34E5A315-0826-403B-B284-B0BC556461F9}
