@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f73d2900-b63e-413d-a9ac-7e7199d7b275}</ProjectGuid>
-    <RootNamespace>My203LowestCommonAncestorOfBST</RootNamespace>
+    <ProjectGuid>{a80f7e26-1acb-48e7-8f4a-5676473c1eab}</ProjectGuid>
+    <RootNamespace>My235LowestCommonAncestorOfBST</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>236. LowestCommonAncestorOfBinaryTree</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="236. LowestCommonAncestorOfBinaryTree.cpp" />
+    <ClCompile Include="235. LowestCommonAncestorOfBST.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

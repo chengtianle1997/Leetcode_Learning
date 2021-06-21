@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="236. LowestCommonAncestorOfBinaryTree.cpp">
+    <ClCompile Include="235. LowestCommonAncestorOfBST.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
